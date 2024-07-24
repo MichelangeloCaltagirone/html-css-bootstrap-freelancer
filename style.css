@@ -1,0 +1,16 @@
+/* Blocchettoni iniziali */
+/* Header */
+header {
+    height: 300px;
+    border: 2px dashed red;
+}
+.upper-nav {
+    height: 50px;
+    border: 2px dashed violet;
+}
+.lower-header {
+    height: 250px;
+    max-width: 300px;
+    border: 2px dashed blue;
+}
+
