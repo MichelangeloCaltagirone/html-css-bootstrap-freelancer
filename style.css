@@ -17,7 +17,20 @@ header {
     margin: 0 auto;
 }
 
+
+/* img size */
 #pics img {
     width: 100%;
     height: auto;
+}
+#avatar {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+
+/* Custom color */
+.bg-dark-cst {
+    background-color: rgb(32, 38, 33);
 }
