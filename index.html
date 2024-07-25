@@ -35,8 +35,8 @@
         </div>   
     </header>
 
-    <main class="text-center">
-        <div class="container-sm py-4">
+    <main>
+        <div class="container-sm py-4 text-center">
             <h3>Portfolio</h3>
             <section id="pics" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 py-4">
 
@@ -50,7 +50,7 @@
             </section>
         </div>
 
-            <section id="about" class="text-white bg-marine-cst py-4">
+            <section id="about" class="text-white bg-marine-cst py-4 text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col"><h3>About</h3></div>
@@ -64,16 +64,39 @@
                         </div>
                     </div>
                     <div class="row justify-content-center mt-4">
-                        <button type="button" class="btn btn-outline-light col-1">Download</button>                    
+                        <button type="button" class="btn btn-outline-light col-3 col-md-2">Download</button>                    
                     </div>
                 </div>
             </section>
 
-            <section class="bg-primary">
-                <div class="col-6 mx-auto">
-                    <h3>Ciao</h3>
-                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eum magnam, accusamus sit corrupti libero recusandae distinctio quae eaque perspiciatis. Suscipit voluptas voluptatibus sapiente aliquam minus, repudiandae saepe neque omnis.</span>   
+            <section id="contacts">
+                <div class="container pb-4">
+                    <div class="row text-center">
+                        <div class="col py-4"><h3>Contact Me</h3></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 mx-auto">
+
+                            <form action="">
+                                <div class="mb-1">
+                                    <input type="text" class="form-control ps-0" id="name" placeholder="Name">
+                                </div>
+                                <div class="mb-1">
+                                    <input type="email" class="form-control ps-0" id="email" placeholder="Email Adress">
+                                </div>
+                                <div class="mb-1">
+                                    <input type="tel" class="form-control ps-0" id="phone" placeholder="Phone Number">
+                                </div>
+                                <div class="mb-2">
+                                    <textarea class="form-control ps-0" id="message" rows="5" placeholder="Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-success">Send</button>
+                            </form>
+                        </div>
+                    </div>
+
                 </div>
+               
             </section>  
     </main>
 
