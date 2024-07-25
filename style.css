@@ -1,19 +1,23 @@
 /* Blocchettoni iniziali */
 /* Header */
 header {
-    height: 300px;
-    border: 2px dashed black;
+    /* height: 300px; */
+    /* border: 2px dashed black; */
 }
 .upper-nav {
-    height: 50px;
-    border: 2px dashed violet;
+    /* border: 2px dashed violet; */
 }
 .lower-header {
-    height: 250px;
-    border: 2px dashed blue;
+    /* height: 250px; */
+    /* border: 2px dashed blue; */
 }
 
 .my-container {
     max-width: 350px;
     margin: 0 auto;
+}
+
+#pics img {
+    width: 100%;
+    height: auto;
 }

@@ -9,14 +9,22 @@
 </head>
 <body>
     
-    <header>        
-        <div class="bg-secondary">
-            <div class="container-md d-flex align-items-center justify-content-between upper-nav">
-                <div>left</div>
-                <div class="d-sm-none">right</div>
-                <div class="d-none d-sm-inline">Appear after d-md</div>
+    <header>           
+        <nav class="navbar navbar-expand-md text-uppercase py-3 fw-bold navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">start bootstrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">portofolio</a>
+                  <a class="nav-link" href="#">about</a>
+                  <a class="nav-link" href="#">contact</a>
+                </div>
+              </div>
             </div>
-        </div>
+          </nav>
 
         <div class="bg-danger">
             <div class="text-center py-4 col-6 mx-auto lower-header">
@@ -28,16 +36,16 @@
     </header>
 
     <main class="bg-warning text-center text-white">
-        <div class="container-md">
+        <div class="container-sm">
             <h3>Ciao</h3>
-            <section class="row row-cols-1 row-cols-sm-2 row-cols-md-3 py-2">
+            <section id="pics" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 py-2">
 
-                <div class="col bg-primary border border-danger">img</div>
-                <div class="col bg-primary border border-danger">img</div>
-                <div class="col bg-primary border border-danger">img</div>
-                <div class="col bg-primary border border-danger">img</div>
-                <div class="col bg-primary border border-danger">img</div>
-                <div class="col bg-primary border border-danger">img</div>
+                <div class="col border border-danger"><img src="img/pics/cabin.png" alt="cabin"></div>
+                <div class="col border border-danger"><img src="img/pics/cake.png" alt="cake"></div>
+                <div class="col border border-danger"><img src="img/pics/circus.png" alt="circus"></div>
+                <div class="col border border-danger"><img src="img/pics/game.png" alt="game"></div>
+                <div class="col border border-danger"><img src="img/pics/safe.png" alt="safe"></div>
+                <div class="col border border-danger"><img src="img/pics/submarine.png" alt="beatles"></div>
 
             </section>
         </div>
