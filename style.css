@@ -16,6 +16,9 @@
 .bg-dark-cst {
     background-color: rgb(32, 38, 33);
 }
+.bg-dark-minus-cst {
+    background-color: rgb(44, 56, 62);
+}
 .bg-marine-cst {
     background-color: rgb(87, 232, 184);
 }
@@ -26,4 +29,13 @@
     border-radius: 0;
     border-color: darkgrey;
 
+}
+
+/* Font Awesome Icon in Footer */
+
+.upper-footer i::before {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
 }
